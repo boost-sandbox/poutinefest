@@ -1,9 +1,6 @@
 name: Sample for GHSL-2023-275
 on:
-  issues:
-  pull_request_target:
-    branches:
-      - main
+  workflow_dispatch: 
 
 jobs:
   censor-readme:
